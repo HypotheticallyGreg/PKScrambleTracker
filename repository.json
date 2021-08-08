@@ -1,0 +1,25 @@
+{
+  "name": "PKScramble Tracker",
+  "packages": [
+    {
+      "name": "PKScramble Tracker",
+      "author": "HypotheticallyGreg",
+      "game_name": "Earthbound Randomizer",
+      "version": "1.0",
+      "flags": [ "map", "pins" ],
+      "required_app_version": "2.3.6.5",
+      "uid": "ebpks",
+      "link": "https://github.com/HypotheticallyGreg/PKScrambleTracker/raw/master/ebpks.zip",
+      "variants": [
+        {
+          "name": "Standard",
+		   "flags": [ "map", "pins" ]
+        },
+        {
+          "name": "Random Starting Location",
+          "flags": [ "map", "pins" ]
+        }
+      ]
+    }
+  ]
+}
