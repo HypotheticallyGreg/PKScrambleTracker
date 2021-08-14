@@ -5,7 +5,7 @@
       "name": "PKScramble Tracker",
       "author": "HypotheticallyGreg",
       "game_name": "Earthbound",
-      "version": "1.1",
+      "version": "1.11",
       "flags": [ "map", "pins" ],
       "required_app_version": "2.3.6.5",
       "uid": "ebpks",
