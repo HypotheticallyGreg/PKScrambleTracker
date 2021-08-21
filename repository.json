@@ -1,11 +1,11 @@
 {
-  "name": "PKScramble Tracker",
+  "name": "Earthbound PKScramble",
   "packages": [
     {
       "name": "PKScramble Tracker",
       "author": "HypotheticallyGreg",
-      "game_name": "Earthbound",
-      "version": "1.12",
+      "game_name": "Earthbound (Mother 2)",
+      "version": "1.13",
       "flags": [ "map", "pins" ],
       "required_app_version": "2.3.6.5",
       "uid": "ebpks",
