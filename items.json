@@ -1,0 +1,433 @@
+﻿[
+  {
+    "name": "linha",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/linha.png",
+        "codes": "linhaa"
+      }
+    ]
+  },
+	
+	// Franklin Badge
+  {
+    "name": "Franklin Badge",
+    "type": "toggle",
+    "img": "images/items/fb.png",
+    "codes": "franklinbadge"
+  },
+  
+   // Meteorite piece
+  {
+    "name": "Meteorite",
+    "type": "toggle",
+    "img": "images/items/meteorite.png",
+    "codes": "meteorite"
+  },
+
+   // Arcade
+  {
+    "name": "Arcade",
+    "type": "toggle",
+    "img": "images/locations/arcade.png",
+    "codes": "arcade"
+  },
+
+  // Shyness Book
+  {
+    "name": "Shyness Book",
+    "type": "toggle",
+    "img": "images/items/sb.png",
+    "codes": "shynessbook"
+  },
+
+  // Signed Banana
+  {
+    "name": "Signed Banana",
+    "type": "toggle",
+    "img": "images/items/banana.png",
+    "codes": "banana"
+  },
+
+  // Key to the Shack
+  {
+    "name": "Key to the Shack",
+    "type": "toggle",
+    "img": "images/items/shackkey.png",
+    "codes": "shackkey"
+  },
+
+  // Hawk Eye
+  {
+    "name": "Hawk Eye",
+    "type": "toggle",
+    "img": "images/items/he.png",
+    "codes": "hawkeye"
+  },
+  
+ // UFO Part 
+ {
+  "name": "UFO Part",
+  "type": "toggle",
+  "img": "images/items/skyrunner.gif",
+  "codes": "skyrunner"
+ },
+
+  // Wad of Bills
+  {
+  "name": "Wad of Bills",
+  "type": "toggle",
+  "img": "images/items/wob.png",
+  "codes": "bills"
+  },
+
+  // Diamond
+  {
+    "name": "Diamond",
+    "type": "toggle",
+    "img": "images/items/diamond.png",
+    "codes": "diamond"
+  },
+
+  // Zombie Paper
+  {
+    "name": "Zombie Paper",
+    "type": "toggle",
+    "img": "images/items/zombiepaper.png",
+    "codes": "zombiepaper"
+  },
+
+  // Pencil Eraser
+  {
+    "name": "Pencil Eraser",
+    "type": "toggle",
+    "img": "images/items/pe.png",
+    "codes": "pencileraser"
+  },
+
+  // Key to the cabin
+  {
+    "name": "Key to the cabin",
+    "type": "toggle",
+    "img": "images/items/bluekey.png",
+    "codes": "bluekey"
+  },
+
+   // Bubble Gum
+   {
+    "name": "Pack of Gum",
+    "type": "toggle",
+    "img": "images/items/gum.png",
+    "codes": "gum"
+  },
+
+  // Carrot Key
+  {
+    "name": "Carrot Key",
+    "type": "toggle",
+    "img": "images/items/ck.png",
+    "codes": "carrotkey"
+  },
+
+  // Jar of Fly Honey
+  {
+    "name": "Jar of Fly Honey",
+    "type": "toggle",
+    "img": "images/items/flyhoney.png",
+    "codes": "flyhoney"
+  },
+  
+  // Tiny Ruby
+  {
+    "name": "Tiny Ruby",
+    "type": "toggle",
+    "img": "images/items/ruby.png",
+    "codes": "tinyruby"
+  },
+  
+// Eraser Eraser
+  {
+    "name": "Eraser Eraser",
+    "type": "toggle",
+    "img": "images/items/eraser.png",
+    "codes": "eraser"
+  },
+  
+  // Police Badge
+  {
+    "name": "Police Badge",
+    "type": "toggle",
+    "img": "images/items/police.png",
+    "codes": "policebadge"
+  },
+ 
+ // Trout Yogurt Machine
+  {
+    "name": "Trout Yogurt Machine",
+    "type": "toggle",
+    "img": "images/items/trout.png",
+    "codes": "troutyogurt"
+  }, 
+  
+    // Heiroglph
+  {
+    "name": "Heiroglph",
+    "type": "toggle",
+    "img": "images/items/glyph.png",
+    "codes": "heiroglyph"
+  },
+  
+ // Talah Ramah Invite
+  {
+    "name": "Talah Ramah Invite",
+    "type": "toggle",
+    "img": "images/items/tr.png",
+    "codes": "talahramah"
+  },
+  
+   // Tendakraut
+  {
+    "name": "Tendakraut",
+    "type": "toggle",
+    "img": "images/items/tenda.png",
+    "codes": "tendakraut"
+  },
+  
+    // Onett
+  {
+    "name": "Onett",
+    "type": "toggle",
+    "img": "images/locations/onett.png",
+    "codes": "onett"
+  },
+  
+     // Twoson
+  {
+    "name": "Twoson",
+    "type": "toggle",
+    "img": "images/locations/twoson.png",
+    "codes": "twoson"
+  },
+  
+     // Threed
+  {
+    "name": "Threed",
+    "type": "toggle",
+    "img": "images/locations/threed.png",
+    "codes": "threed"
+  },
+  
+     // Fourside
+  {
+    "name": "Fourside",
+    "type": "toggle",
+    "img": "images/locations/fourside.png",
+    "codes": "fourside"
+  },
+  
+     // Happy Happy Village
+  {
+    "name": "Happy Happy Village",
+    "type": "toggle",
+    "img": "images/locations/happyhappy.png",
+    "codes": "happyhappy"
+  },
+  
+     // Winters
+  {
+    "name": "Winters",
+    "type": "toggle",
+    "img": "images/locations/winters.png",
+    "codes": "winters"
+  },
+  
+     // Saturn Valley
+  {
+    "name": "Saturn Valley",
+    "type": "toggle",
+    "img": "images/locations/saturnvalley.png",
+    "codes": "saturnvalley"
+  },
+  
+     // Dusty Dunes
+  {
+    "name": "Dusty Dunes",
+    "type": "toggle",
+    "img": "images/locations/dustydunes.png",
+    "codes": "dustydunes"
+  },
+  
+     // Summers
+  {
+    "name": "Summers",
+    "type": "toggle",
+    "img": "images/locations/summers.png",
+    "codes": "summers"
+  },
+  
+     // Dalaam
+  {
+    "name": "Dalaam",
+    "type": "toggle",
+    "img": "images/locations/dalaam.png",
+    "codes": "dalaam"
+  },
+  
+     // Scaraba
+  {
+    "name": "Scaraba",
+    "type": "toggle",
+    "img": "images/locations/scaraba.png",
+    "codes": "scaraba"
+  },
+  
+       // Deep Darkness
+  {
+    "name": "Deep Darkness",
+    "type": "toggle",
+    "img": "images/locations/deepdarkness.png",
+    "codes": "deepdarkness"
+  },
+  
+       // Lost Underworld
+  {
+    "name": "Lost Underworld",
+    "type": "toggle",
+    "img": "images/locations/lostunderworld.png",
+    "codes": "lostunderworld"
+  },
+  
+       // Tenda Village
+  {
+    "name": "Tenda Village",
+    "type": "toggle",
+    "img": "images/locations/tendavillage.png",
+    "codes": "tendavillage"
+  },
+  
+       // Magicant
+  {
+    "name": "Magicant",
+    "type": "toggle",
+    "img": "images/locations/magicant.png",
+    "codes": "magicant"
+  },
+  
+  // GiantStep
+  {
+    "name": "GiantStep",
+    "type": "toggle",
+    "img": "images/locations/giantstep.png",
+    "codes": "giantstep"
+  },
+  
+  // Lilliput Steps
+  {
+    "name": "Lilliput Steps",
+    "type": "toggle",
+    "img": "images/locations/lilliput.png",
+    "codes": "lilliput"
+  },
+  
+  // Milky Well
+  {
+    "name": "Milky Well",
+    "type": "toggle",
+    "img": "images/locations/milkywell.png",
+    "codes": "milkywell"
+  },
+  
+  // Rainy Circle
+  {
+    "name": "Rainy Circle",
+    "type": "toggle",
+    "img": "images/locations/rainycircle.png",
+    "codes": "rainycircle"
+  },
+  
+  // Magnet Hill
+  {
+    "name": "Magnet Hill",
+    "type": "toggle",
+    "img": "images/locations/magnethill.png",
+    "codes": "magnethill"
+  },
+  
+  // Pink Cloud
+  {
+    "name": "Pink Cloud",
+    "type": "toggle",
+    "img": "images/locations/pinkcloud.png",
+    "codes": "pinkcloud"
+  },
+  
+  // Lumine Hall
+  {
+    "name": "Lumine Hall",
+    "type": "toggle",
+    "img": "images/locations/luminehall.png",
+    "codes": "luminehall"
+  },
+  
+  // Fire Spring
+  {
+    "name": "Fire Spring",
+    "type": "toggle",
+    "img": "images/locations/firespring.png",
+    "codes": "firespring"
+  },
+  
+    // Paula
+  {
+    "name": "Paula",
+    "type": "toggle",
+    "img": "images/items/party/paula.png",
+    "codes": "paula"
+  },
+  
+      // Jeff
+  {
+    "name": "Jeff",
+    "type": "toggle",
+    "img": "images/items/party/jeff.png",
+    "codes": "jeff"
+  },
+  
+      // Poo
+  {
+    "name": "Poo",
+    "type": "toggle",
+    "img": "images/items/party/poo.png",
+    "codes": "poo"
+  },
+  
+   // Apple Kid Food and Money
+  {
+    "name": "Apple Kid Food and Pay",
+    "type": "toggle",
+    "img": "images/items/applekid.png",
+    "codes": "applekidhouse"
+  },
+  {
+    "name": "Free Mr Saturn",
+    "type": "toggle",
+    "img": "images/items/mrsaturn.png",
+    "codes": "mrsaturn"
+  },
+  {
+    "name": "North Onett",
+    "type": "toggle",
+    "img": "images/kino.png",
+    "codes": "nonett"
+  },
+  {
+    "name": "Cake Lady",
+    "type": "toggle",
+    "img": "images/kino.png",
+    "codes": "cakelady"
+  }
+ 
+ ] 
+  

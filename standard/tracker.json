@@ -1,0 +1,259 @@
+﻿{
+    "shared_item_grid": {
+      "type": "array",
+      "h_alignment": "horizontal",
+      "content": [
+        {
+          "type": "itemgrid",
+            "h_alignment": "center",
+            "item_margin": "1,2",
+            "item_size": 40,
+            "rows": [
+              [ "paula", "jeff", "poo"]
+            ]
+          },
+        {
+          "type": "array",
+          "orientation": "vertical",
+          "margin": "-5,0,0,0",
+          "content": [
+          {
+          "type": "array",
+              "orientation": "horizontal",
+              "margin": "0,0,0,0",
+              "content": [
+              {
+          "type": "itemgrid",
+            "h_alignment": "center",
+            "item_margin": "1,2",
+            "rows": [
+              [ "meteorite", "shackkey", "shynessbook", "policebadge"],
+              [ "bills", "pencileraser", "bluekey", "franklinbadge", ],
+              [ "zombiepaper", "flyhoney", "skyrunner"],
+			  [ "gum", "eraser"],
+              [ "talahramah", "diamond", "troutyogurt", "banana"],
+              [ "tinyruby", "heiroglyph", "hawkeye", "tendakraut", "carrotkey"],
+              ]
+          },
+          { 
+            "type": "itemgrid",
+            "h_alignment": "center",
+            "item_margin": "0,0",
+            "rows": [
+              [ "linhaa" ],
+              [ "linhaa" ],
+              [ "linhaa" ],
+              [ "linhaa" ],
+              [ "linhaa" ],
+              [ "linhaa" ],
+              [ "linhaa" ],
+            ]
+          },
+          {
+          "type": "itemgrid",
+                  "h_alignment": "center",
+                  "margin": "-15,0,0,0",
+									"item_margin": "1,2",
+									"item_width": 96,
+									"item_height": 30,
+									"rows": [
+										["onett", "twoson", "threed"],
+										["fourside", "happyhappy", "winters"],
+										["summers", "saturnvalley", "dustydunes"],
+										["dalaam", "scaraba", "deepdarkness"],
+										["lostunderworld", "tendavillage", "magicant"],
+										
+                  ]
+            },
+			          { 
+            "type": "itemgrid",
+            "h_alignment": "center",
+            "item_margin": "0,0",
+            "rows": [
+              [ "linhaa" ],
+              [ "linhaa" ],
+              [ "linhaa" ],
+              [ "linhaa" ],
+              [ "linhaa" ],
+              [ "linhaa" ],
+              [ "linhaa" ],
+            ]
+          },
+		            {
+          "type": "itemgrid",
+                  "h_alignment": "center",
+                  "margin": "-15,0,0,0",
+									"item_margin": "1,2",
+									"item_width": 108,
+									"item_height": 108,
+									"rows": [
+										["giantstep", "lilliput", "milkywell", "rainycircle"],
+										["magnethill", "pinkcloud", "luminehall", "firespring"],
+										]
+            },
+          ]
+        }
+      ]
+    } 
+      ]
+    },
+    "tracker_capture_item": {
+      "type": "container",
+      "content": {
+        "type": "layout",
+        "key": "shared_item_grid"
+      }
+    },
+	"tracker_default":
+	{
+		"type": "container",
+		"background": "#101010",
+		"content":
+		{
+			"type": "dock",
+			"dropshadow": true,
+			"content":
+			[
+				{
+					"type": "dock",
+					"dock": "bottom",
+					"h_alignment": "stretch",
+					"content":
+					[
+						{
+							"type": "dock",
+							"dock": "left",
+							"content":
+							[
+								{
+									"type": "group",
+									"header": "Items",
+									"dock": "top",
+									"content":
+									{
+										"type": "layout",
+										"key": "shared_item_grid"
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "tabbed",
+					"tabs":
+					[
+						{
+							"title": "WorldMap",
+							"content":
+							{
+								"type": "map",
+								"maps":
+								[
+									"WorldMap"
+								]
+							}
+							
+						},
+						{
+							"title": "Desert Mines",
+							"content":
+							{
+								"type": "map",
+								"maps":
+								[
+									"Desert Mines"
+								]
+							}
+							
+						},
+						{
+							"title": "Lumine Hall",
+							"content":
+							{
+								"type": "map",
+								"maps":
+								[
+									"Lumine Hall"
+								]
+							}
+							
+						},
+						{
+							"title": "Monotoli 48th floor",
+							"content":
+							{
+								"type": "map",
+								"maps":
+								[
+									"Monotoli 48th floor"
+								]
+							}
+							
+						},
+						{
+							"title": "Monkey Caves",
+							"content":
+							{
+								"type": "map",
+								"maps":
+								[
+									"Monkey Caves"
+								]
+							}
+							
+						},
+						{
+							"title": "Peaceful Rest Valley",
+							"content":
+							{
+								"type": "map",
+								"maps":
+								[
+									"Peaceful Rest Valley"
+								]
+							}
+							
+						},
+						{
+							"title": "Deep Darkness",
+							"content":
+							{
+								"type": "map",
+								"maps":
+								[
+									"Deep Darkness"
+								]
+							}
+							
+						},
+						{
+							"title": "Fire Spring",
+							"content":
+							{
+								"type": "map",
+								"maps":
+								[
+									"Fire Spring"
+								]
+							}
+							
+						},
+						{
+							"title": "Boss Chart",
+							"content":
+							{
+								"type": "map",
+								"maps":
+								[
+									"Boss Chart"
+								]
+							}
+							
+						}
+					]
+				}
+			]
+      }
+    }
+  }

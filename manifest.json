@@ -1,0 +1,20 @@
+﻿{
+  "name": "Earthbound PKScramble",
+  "game_name": "Earthbound (Mother 2)",
+  "package_version": "1.13",
+  "package_uid": "ebpks",
+  "platform": "snes",
+  "author": "Hypothetically Greg",
+  "variants":
+    {
+        "standard":
+        {
+            "display_name": "Standard"
+        },
+        "randomstart":
+        {
+            "display_name": "Random Starting Location"
+        }
+    }
+}
+}

@@ -1,0 +1,56 @@
+[
+	{
+		"name": "WorldMap",
+		"location_size": 20,
+		"location_border_thickness": 1,
+		"img": "images/maps/worldmap.png"
+	},
+		{
+		"name": "Desert Mines",
+		"location_size": 30,
+		"location_border_thickness": 5,
+		"img": "images/maps/mines.png"
+	},
+	{
+		"name": "Lumine Hall",
+		"location_size": 30,
+		"location_border_thickness": 5,
+		"img": "images/maps/luminehall.png"
+	},
+	{
+		"name": "Monotoli 48th floor",
+		"location_size": 30,
+		"location_border_thickness": 5,
+		"img": "images/maps/monotoli.png"
+	},
+		{
+		"name": "Monkey Caves",
+		"location_size": 30,
+		"location_border_thickness": 5,
+		"img": "images/maps/monkeycaves.png"
+	},
+	{
+		"name": "Deep Darkness",
+		"location_size": 30,
+		"location_border_thickness": 5,
+		"img": "images/maps/deepdarkness.png"
+	},
+	{
+		"name": "Peaceful Rest Valley",
+		"location_size": 30,
+		"location_border_thickness": 5,
+		"img": "images/maps/peacefulrestvalley.png"
+	},
+	{
+		"name": "Fire Spring",
+		"location_size": 30,
+		"location_border_thickness": 5,
+		"img": "images/maps/firespring.png"
+	},
+	{
+		"name": "Boss Chart",
+		"location_size": 30,
+		"location_border_thickness": 5,
+		"img": "images/maps/weaknesses.png"
+	}
+]
