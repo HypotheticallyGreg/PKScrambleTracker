@@ -787,7 +787,7 @@
 					"name": "Tenda Chief",
 					"chest_unopened_img": "images/kino.png",
 					"chest_opened_img": "images/kiyes.png",
-					"hosted_item": "deepdarkness"
+					"item_count":1
 
 				}],
 				"map_locations": [{
@@ -805,7 +805,7 @@
 					"name": "Tenda Tea",
 					"chest_unopened_img": "images/kino.png",
 					"chest_opened_img": "images/kiyes.png",
-					"hosted_item": "deepdarkness"
+					"item_count":1
 
 				}],
 				"map_locations": [{
