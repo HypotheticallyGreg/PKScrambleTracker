@@ -1,0 +1,892 @@
+[{
+	"name": "All Locations",
+	"children": [{
+		"name": "WorldMap",
+		"color": "#b82800",
+		"access_rules": [
+			""
+		],
+		"children": [{
+				"name": "Onett",
+				"access_rules": [
+					"policebadge"
+				],
+				"sections": [{
+					"name": "Police Boss",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"hosted_item": "twoson"
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 118,
+					"y": 166
+				}]
+			},
+			{
+				"name": "Onett",
+				"access_rules": [
+					""
+				],
+				"sections": [{
+					"name": "Town Hall Mayor",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 1
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 80,
+					"y": 128
+				}]
+			},
+			{
+				"name": "Character",
+				"access_rules": [
+					"jeff"
+				],
+				"sections": [{
+					"name": "Jeff's Item",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 1
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 889,
+					"y": 755
+				}]
+			},
+			{
+				"name": "Character",
+				"access_rules": [
+					"poo"
+				],
+				"sections": [{
+					"name": "Poo's Item",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 1
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 889,
+					"y": 665
+				}]
+			},
+			{
+				"name": "Onett",
+				"access_rules": [
+					""
+				],
+				"sections": [{
+					"name": "Meteorite",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 1
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 123,
+					"y": 14
+				}]
+			},
+			{
+				"name": "Onett",
+				"access_rules": [
+					""
+				],
+				"sections": [{
+					"name": "Buzz Buzz",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 1
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 154,
+					"y": 32
+				}]
+			},
+			{
+				"name": "Onett Library",
+				"access_rules": [
+					""
+				],
+				"sections": [{
+					"name": "Bookshelf",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 1
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 130,
+					"y": 84
+				}]
+			},
+			{
+				"name": "Onett",
+				"access_rules": [
+					""
+				],
+				"sections": [{
+					"name": "Lier's basement",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 1
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 98,
+					"y": 8
+				}]
+			},
+
+			{
+				"name": "Onett",
+				"access_rules": [
+					"shackkey"
+				],
+				"sections": [{
+					"name": "Giant Step",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"hosted_item": "giantstep"
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 58,
+					"y": 54
+				}]
+			},
+			{
+				"name": "Twoson",
+				"access_rules": [
+					"twoson"
+				],
+				"sections": [{
+					"name": "Apple Kid - Park",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 1
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 277,
+					"y": 134
+				}]
+			},
+			{
+				"name": "Twoson",
+				"access_rules": [
+					"paula,twoson", "paula,mrsaturn"
+				],
+				"sections": [{
+					"name": "Everdred",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 1
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 287,
+					"y": 113
+				}]
+			},
+			{
+				"name": "Twoson",
+				"access_rules": [
+					"bills, twoson"
+				],
+				"sections": [{
+					"name": "Chaos Theater",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"hosted_item": "threed"
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 398,
+					"y": 62
+				}]
+			},
+			{
+				"name": "Happy Happy Village",
+				"access_rules": [
+					"pencileraser, twoson"
+				],
+				"sections": [{
+						"name": "Cabin Item",
+						"chest_unopened_img": "images/kino.png",
+						"chest_opened_img": "images/kiyes.png",
+						"item_count": 1
+
+					},
+					{
+						"name": "Cabin Prisoner",
+						"chest_unopened_img": "images/kino.png",
+						"chest_opened_img": "images/kiyes.png",
+						"access_rules": [
+							"bluekey"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 170,
+					"y": 224
+				}]
+			},
+			{
+				"name": "Happy Happy Village",
+				"access_rules": [
+					"franklinbadge, twoson, pencileraser"
+				],
+				"sections": [{
+					"name": "BlueBlue Leader",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 1
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 123,
+					"y": 293
+				}]
+			},
+			{
+				"name": "Happy Happy Village",
+				"access_rules": [
+					"twoson, pencileraser"
+				],
+				"sections": [{
+					"name": "Lilliput Steps",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"hosted_item": "lilliput"
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 211,
+					"y": 250
+				}]
+			},
+			{
+				"name": "Threed",
+				"access_rules": [
+					"threed", "mrsaturn"
+				],
+				"sections": [{
+						"name": "Threed Prisoner",
+						"chest_unopened_img": "images/kino.png",
+						"chest_opened_img": "images/kiyes.png",
+						"item_count": 1
+
+					},
+					{
+						"name": "UFO Engine",
+						"chest_unopened_img": "images/kino.png",
+						"chest_opened_img": "images/kiyes.png",
+						"access_rules": [
+							"skyrunner"
+						],
+						"hosted_item": "summers"
+					}
+				],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 607,
+					"y": 33
+				}]
+			},
+			{
+				"name": "Threed",
+				"access_rules": [
+					"jeff, threed", "mrsaturn, jeff"
+				],
+				"sections": [{
+					"name": "Boogey Tent",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 1
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 536,
+					"y": 158
+				}]
+			},
+			{
+				"name": "Threed",
+				"access_rules": [
+					"zombiepaper, threed", "zombiepaper, mrsaturn"
+				],
+				"sections": [{
+					"name": "Tunnel to Saturn Valley",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"hosted_item": "saturnvalley"
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 553,
+					"y": 20
+				}]
+			},
+			{
+				"name": "Winters",
+				"access_rules": [
+					"winters"
+				],
+				"sections": [{
+					"name": "Bubblegum Saleswoman",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 1
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 398,
+					"y": 298
+				}]
+			},
+			{
+				"name": "Winters",
+				"access_rules": [
+					"winters, gum"
+				],
+				"sections": [{
+					"name": "Nameless Mouse",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 1
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 536,
+					"y": 359
+				}]
+			},
+			{
+				"name": "Winters",
+				"access_rules": [
+					"winters, gum, eraser"
+				],
+				"sections": [{
+					"name": "Stonehenge",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 1
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 541,
+					"y": 260
+				}]
+			},
+			{
+				"name": "Winters",
+				"access_rules": [
+					"winters, gum"
+				],
+				"sections": [{
+					"name": "Rainy Circle ",
+					"hosted_item": "rainycircle"
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 562,
+					"y": 217
+
+				}]
+			},
+			{
+				"name": "Grapefruit Falls",
+				"access_rules": [
+					"saturnvalley, flyhoney"
+				],
+				"sections": [{
+					"name": "Defeat Factory Boss",
+					"hosted_item": "mrsaturn"
+
+				},
+				{
+					"name": "Defeat Factory Boss",
+					"hosted_item": "twoson"
+				},
+				{
+					"name": "Defeat Factory Boss",
+					"hosted_item": "threed"
+				},
+				{
+					"name": "Defeat Factory Boss",
+					"hosted_item": "fourside"
+
+				},
+				{
+					"name": "Defeat Factory Boss",
+					"hosted_item": "dustydunes"
+
+				}
+				],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 811,
+					"y": 221
+
+				}]
+			},
+			{
+				"name": "Saturn Valley",
+				"access_rules": [
+					"saturnvalley, mrsaturn"
+				],
+				"sections": [{
+					"name": "Milky Well",
+					"hosted_item": "milkywell"
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 849,
+					"y": 210
+				}]
+			},
+			{
+				"name": "Saturn Valley",
+				"access_rules": [
+					"saturnvalley, mrsaturn"
+				],
+				"sections": [{
+					"name": "Saturn Coffee",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 1
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 856,
+					"y": 234
+				}]
+			},
+			{
+				"name": "Saturn Valley",
+				"access_rules": [
+					"saturnvalley, meteorite"
+				],
+				"sections": [{
+					"name": "Star Master/Giygas",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 1
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 785,
+					"y": 305
+				}]
+			},
+			{
+				"name": "Dusty Dunes",
+				"access_rules": [
+					"dustydunes", "fourside"
+				],
+				"sections": [{
+					"name": "Mines",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 1
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 370,
+					"y": 440
+				}]
+			},
+			{
+				"name": "Dusty Dunes",
+				"access_rules": [
+					"dustydunes, talahramah, pencileraser", "fourside, talahramah, pencileraser"
+				],
+				"sections": [{
+					"name": "Monkey Caves",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 2
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 146,
+					"y": 404
+				}]
+			},
+			{
+				"name": "Fourside",
+				"access_rules": [
+					"fourside", "dustydunes"
+				],
+				"sections": [{
+					"name": "Moonside",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 1
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 735,
+					"y": 51
+				}]
+			},
+			{
+				"name": "Fourside",
+				"access_rules": [
+					"fourside, troutyogurt", "dustydunes, troutyogurt"
+				],
+				"sections": [{
+					"name": "Monotoli Prisoner",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 2
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 845,
+					"y": 84
+				}]
+			},
+			{
+				"name": "Fourside",
+				"access_rules": [
+					"fourside, diamond", "dustydunes, diamond"
+				],
+				"sections": [{
+					"name": "Topollo Theater",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"hosted_item": "threed",
+					"item_count": 1
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 793,
+					"y": 142
+				}]
+			},
+			{
+				"name": "Fourside",
+				"access_rules": [
+					"fourside, banana", "dustydunes, banana"
+				],
+				"sections": [{
+					"name": "Museum Sewers",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"hosted_item": "magnethill",
+					"item_count": 1
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 815,
+					"y": 104
+				}]
+			},
+			{
+				"name": "Summers",
+				"access_rules": [
+					"summers"
+				],
+				"sections": [{
+					"name": "Magic Cake",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"hosted_item": "cakelady",
+					"item_count": 1
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 140,
+					"y": 532
+				}]
+			},
+			{
+				"name": "Summers",
+				"access_rules": [
+					"summers, tinyruby"
+				],
+				"sections": [{
+					"name": "Summers Museum",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 1
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 240,
+					"y": 509
+				}]
+			},
+			{
+				"name": "Summers",
+				"access_rules": [
+					"cakelady"
+				],
+				"sections": [{
+					"name": "Boat to Scaraba",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"hosted_item": "scaraba"
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 399,
+					"y": 536
+				}]
+			},
+			{
+				"name": "Dalaam",
+				"access_rules": [
+					"dalaam"
+				],
+				"sections": [{
+					"name": "Dalaam Royalty",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 1
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 786,
+					"y": 424
+				}]
+			},
+			{
+				"name": "Dalaam",
+				"access_rules": [
+					"dalaam, poo"
+				],
+				"sections": [{
+					"name": "Mu Training",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 1
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 895,
+					"y": 495
+				}]
+			},
+			{
+				"name": "Dalaam",
+				"access_rules": [
+					"dalaam, carrotkey"
+				],
+				"sections": [{
+					"name": "Pink Cloud",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"hosted_item": "pinkcloud"
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 730,
+					"y": 582
+				}]
+			},
+			{
+				"name": "Scaraba",
+				"access_rules": [
+					"scaraba, heiroglyph"
+				],
+				"sections": [{
+					"name": "Pyramid Treasure",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 1
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 641,
+					"y": 460
+				}]
+			},
+			{
+				"name": "Scaraba",
+				"access_rules": [
+					"scaraba, heiroglyph"
+				],
+				"sections": [{
+					"name": "Star Master",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 1
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 632,
+					"y": 544
+				}]
+			},
+			{
+				"name": "Scaraba",
+				"access_rules": [
+					"scaraba, heiroglyph"
+				],
+				"sections": [{
+					"name": "Yellow Submarine",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"hosted_item": "deepdarkness"
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 601,
+					"y": 555
+				}]
+			},
+			{
+				"name": "Tenda Village",
+				"access_rules": [
+					"deepdarkness, hawkeye, shynessbook", "tendavillage, shynessbook"
+				],
+				"sections": [{
+					"name": "Tenda Chief",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count":1
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 355,
+					"y": 706
+				}]
+			},
+			{
+				"name": "Tenda Village",
+				"access_rules": [
+					"deepdarkness, hawkeye, shynessbook", "tendavillage, shynessbook"
+				],
+				"sections": [{
+					"name": "Tenda Tea",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count":1
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 323,
+					"y": 706
+				}]
+			},
+			{
+				"name": "Tenda Village",
+				"access_rules": [
+					"deepdarkness, hawkeye, shynessbook", "tendavillage, shynessbook"
+				],
+				"sections": [{
+					"name": "Lumine Hall",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"hosted_item": "luminehall"
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 257,
+					"y": 731
+				}]
+			},
+			{
+				"name": "Lost Underworld",
+				"access_rules": [
+					"lostunderworld, tendakraut", "luminehall, tendakraut"
+				],
+				"sections": [{
+					"name": "Talking Rock",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 1
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 559,
+					"y": 644
+				}]
+			},
+			{
+				"name": "Lost Underworld",
+				"access_rules": [
+					"lostunderworld", "luminehall"
+				],
+				"sections": [{
+					"name": "Fire Spring",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"hosted_item": "firespring"
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 467,
+					"y": 732
+				}]
+			},
+			{
+				"name": "Magicant",
+				"access_rules": [
+					"magicant"
+				],
+				"sections": [{
+					"name": "Magicant Nightmare",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 1
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 740,
+					"y": 630
+				}]
+			}
+
+		]
+	}]
+}]

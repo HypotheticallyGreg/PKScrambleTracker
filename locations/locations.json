@@ -167,7 +167,7 @@
 			{
 				"name": "Twoson",
 				"access_rules": [
-					"twoson"
+					"twoson", "mrsaturn, threed"
 				],
 				"sections": [{
 					"name": "Apple Kid - Park",
@@ -185,7 +185,7 @@
 			{
 				"name": "Twoson",
 				"access_rules": [
-					"paula,twoson", "paula,mrsaturn"
+					"paula,twoson", "paula,mrsaturn", "mrsaturn, paula, threed"
 				],
 				"sections": [{
 					"name": "Everdred",
@@ -203,7 +203,7 @@
 			{
 				"name": "Twoson",
 				"access_rules": [
-					"bills, twoson"
+					"bills, twoson", "bills, mrsaturn, threed"
 				],
 				"sections": [{
 					"name": "Chaos Theater",
@@ -221,7 +221,7 @@
 			{
 				"name": "Happy Happy Village",
 				"access_rules": [
-					"pencileraser, twoson"
+					"pencileraser, twoson", "pencileraser, mrsaturn, threed"
 				],
 				"sections": [{
 						"name": "Cabin Item",
@@ -249,7 +249,7 @@
 			{
 				"name": "Happy Happy Village",
 				"access_rules": [
-					"franklinbadge, twoson, pencileraser"
+					"franklinbadge, twoson, pencileraser", "franklinbadge, mrsaturn, threed, pencileraser"
 				],
 				"sections": [{
 					"name": "BlueBlue Leader",
@@ -267,7 +267,7 @@
 			{
 				"name": "Happy Happy Village",
 				"access_rules": [
-					"twoson, pencileraser"
+					"twoson, pencileraser", "mrsaturn, threed, pencileraser"
 				],
 				"sections": [{
 					"name": "Lilliput Steps",
@@ -285,7 +285,7 @@
 			{
 				"name": "Threed",
 				"access_rules": [
-					"threed", "mrsaturn"
+					"threed", "mrsaturn, twoson", "mrsaturn, fourside"
 				],
 				"sections": [{
 						"name": "Threed Prisoner",
@@ -313,7 +313,7 @@
 			{
 				"name": "Threed",
 				"access_rules": [
-					"jeff, threed", "mrsaturn, jeff"
+					"jeff, threed", "mrsaturn, jeff", "mrsaturn, twoson, jeff", "mrsaturn, fourside, jeff"
 				],
 				"sections": [{
 					"name": "Boogey Tent",
@@ -331,7 +331,7 @@
 			{
 				"name": "Threed",
 				"access_rules": [
-					"zombiepaper, threed", "zombiepaper, mrsaturn"
+					"zombiepaper, threed", "zombiepaper, mrsaturn", "mrsaturn, twoson, zombiepaper", "mrsaturn, fourside, zombiepaper"
 				],
 				"sections": [{
 					"name": "Tunnel to Saturn Valley",
@@ -425,26 +425,8 @@
 				"sections": [{
 					"name": "Defeat Factory Boss",
 					"hosted_item": "mrsaturn"
-
 				},
-				{
-					"name": "Defeat Factory Boss",
-					"hosted_item": "twoson"
-				},
-				{
-					"name": "Defeat Factory Boss",
-					"hosted_item": "threed"
-				},
-				{
-					"name": "Defeat Factory Boss",
-					"hosted_item": "fourside"
-
-				},
-				{
-					"name": "Defeat Factory Boss",
-					"hosted_item": "dustydunes"
-
-				}
+				
 				],
 				"map_locations": [{
 					"map": "WorldMap",
@@ -508,7 +490,7 @@
 			{
 				"name": "Dusty Dunes",
 				"access_rules": [
-					"dustydunes", "fourside"
+					"dustydunes", "fourside", "mrsaturn, threed"
 				],
 				"sections": [{
 					"name": "Mines",
@@ -526,7 +508,7 @@
 			{
 				"name": "Dusty Dunes",
 				"access_rules": [
-					"dustydunes, talahramah, pencileraser", "fourside, talahramah, pencileraser"
+					"dustydunes, talahramah, pencileraser", "fourside, talahramah, pencileraser", "mrsaturn, threed, talahramah, pencileraser"
 				],
 				"sections": [{
 					"name": "Monkey Caves",
@@ -544,7 +526,7 @@
 			{
 				"name": "Fourside",
 				"access_rules": [
-					"fourside", "dustydunes"
+					"fourside", "dustydunes", "mrsaturn, threed"
 				],
 				"sections": [{
 					"name": "Moonside",
@@ -562,7 +544,7 @@
 			{
 				"name": "Fourside",
 				"access_rules": [
-					"fourside, troutyogurt", "dustydunes, troutyogurt"
+					"fourside, troutyogurt", "dustydunes, troutyogurt", "mrsaturn, threed, troutyogurt"
 				],
 				"sections": [{
 					"name": "Monotoli Prisoner",
@@ -580,7 +562,7 @@
 			{
 				"name": "Fourside",
 				"access_rules": [
-					"fourside, diamond", "dustydunes, diamond"
+					"fourside, diamond", "dustydunes, diamond", "mrsaturn, threed, diamond"
 				],
 				"sections": [{
 					"name": "Topollo Theater",
@@ -599,7 +581,7 @@
 			{
 				"name": "Fourside",
 				"access_rules": [
-					"fourside, banana", "dustydunes, banana"
+					"fourside, banana", "dustydunes, banana", "mrsaturn, threed, banana"
 				],
 				"sections": [{
 					"name": "Museum Sewers",
