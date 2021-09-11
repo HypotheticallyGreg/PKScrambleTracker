@@ -5,7 +5,7 @@
       "name": "PKScramble Tracker",
       "author": "HypotheticallyGreg",
       "game_name": "Earthbound (Mother 2)",
-      "version": "1.14",
+      "version": "1.15",
       "flags": [ "map", "pins" ],
       "required_app_version": "2.3.6.5",
       "uid": "ebpks",
