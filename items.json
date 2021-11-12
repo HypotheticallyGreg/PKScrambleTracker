@@ -411,6 +411,18 @@
     "codes": "applekidhouse"
   },
   {
+    "name": "Flying Man",
+    "type": "toggle",
+    "img": "images/items/party/flying.gif",
+    "codes": "flying"
+  },
+  {
+    "name": "Teddy Bear",
+    "type": "toggle",
+    "img": "images/items/party/bear.gif",
+    "codes": "bear"
+  },
+  {
     "name": "Free Mr Saturn",
     "type": "toggle",
     "img": "images/items/mrsaturn.png",
@@ -422,6 +434,7 @@
     "img": "images/kino.png",
     "codes": "nonett"
   },
+  
   {
     "name": "Cake Lady",
     "type": "toggle",

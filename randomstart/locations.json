@@ -7,7 +7,7 @@
 			""
 		],
 		"children": [{
-				"name": "Onett",
+				"name": "Police Station",
 				"access_rules": [
 					"policebadge, onett"
 				],
@@ -27,12 +27,12 @@
 				}]
 			},
 			{
-				"name": "Onett",
+				"name": "Town Hall",
 				"access_rules": [
 					"onett"
 				],
 				"sections": [{
-					"name": "Town Hall Mayor",
+					"name": "Mayor's Gift",
 					"chest_unopened_img": "images/kino.png",
 					"chest_opened_img": "images/kiyes.png",
 					"item_count": 1
@@ -44,7 +44,7 @@
 				}]
 			},
 			{
-				"name": "Character",
+				"name": "Jeff",
 				"access_rules": [
 					"jeff"
 				],
@@ -61,7 +61,7 @@
 				}]
 			},
 			{
-				"name": "Character",
+				"name": "Poo",
 				"access_rules": [
 					"poo"
 				],
@@ -78,7 +78,7 @@
 				}]
 			},
 			{
-				"name": "Onett",
+				"name": "Hill Top",
 				"access_rules": [
 					"onett, policebadge, nonett"
 				],
@@ -95,7 +95,7 @@
 				}]
 			},
 			{
-				"name": "Onett",
+				"name": "Pokey's House",
 				"access_rules": [
 					"onett, policebadge, nonett"
 				],
@@ -131,7 +131,7 @@
 				}]
 			},
 			{
-				"name": "Onett",
+				"name": "Lier's House",
 				"access_rules": [
 					"onett, policebadge, nonett"
 				],
@@ -150,7 +150,7 @@
 			},
 
 			{
-				"name": "Onett",
+				"name": "Traveling Entertainer's Shack",
 				"access_rules": [
 					"shackkey, onett"
 				],
@@ -168,12 +168,12 @@
 				}]
 			},
 			{
-				"name": "Twoson",
+				"name": "Apple Kid in the Park",
 				"access_rules": [
 					"twoson", "mrsaturn, threed"
 				],
 				"sections": [{
-					"name": "Apple Kid - Park",
+					"name": "Apple Kid's Invention",
 					"chest_unopened_img": "images/kino.png",
 					"chest_opened_img": "images/kiyes.png",
 					"item_count": 1
@@ -186,12 +186,12 @@
 				}]
 			},
 			{
-				"name": "Twoson",
+				"name": "Burglin Park",
 				"access_rules": [
 					"paula,twoson", "paula,mrsaturn", "mrsaturn, paula, threed"
 				],
 				"sections": [{
-					"name": "Everdred",
+					"name": "Burglin Boss",
 					"chest_unopened_img": "images/kino.png",
 					"chest_opened_img": "images/kiyes.png",
 					"item_count": 1
@@ -204,12 +204,12 @@
 				}]
 			},
 			{
-				"name": "Twoson",
+				"name": "Chaos Theater",
 				"access_rules": [
 					"bills, twoson", "bills, mrsaturn, threed"
 				],
 				"sections": [{
-					"name": "Chaos Theater",
+					"name": "Runaway Debt",
 					"chest_unopened_img": "images/kino.png",
 					"chest_opened_img": "images/kiyes.png",
 					"hosted_item": "threed"
@@ -222,12 +222,12 @@
 				}]
 			},
 			{
-				"name": "Happy Happy Village",
+				"name": "Cabin in the valley",
 				"access_rules": [
 					"pencileraser, twoson", "pencileraser, mrsaturn, threed"
 				],
 				"sections": [{
-						"name": "Cabin Item",
+						"name": "Prisoner's Item",
 						"chest_unopened_img": "images/kino.png",
 						"chest_opened_img": "images/kiyes.png",
 						"item_count": 1
@@ -268,7 +268,7 @@
 				}]
 			},
 			{
-				"name": "Happy Happy Village",
+				"name": "Strange Non-Blue Place",
 				"access_rules": [
 					"twoson, pencileraser", "mrsaturn, threed, pencileraser"
 				],
@@ -286,7 +286,7 @@
 				}]
 			},
 			{
-				"name": "Threed",
+				"name": "Threed North Graveyard",
 				"access_rules": [
 					"threed", "mrsaturn, twoson", "mrsaturn, fourside"
 				],
@@ -314,12 +314,12 @@
 				}]
 			},
 			{
-				"name": "Threed",
+				"name": "Threed Tent",
 				"access_rules": [
 					"jeff, threed", "mrsaturn, jeff", "mrsaturn, twoson, jeff", "mrsaturn, fourside, jeff"
 				],
 				"sections": [{
-					"name": "Boogey Tent",
+					"name": "Tent Boss",
 					"chest_unopened_img": "images/kino.png",
 					"chest_opened_img": "images/kiyes.png",
 					"item_count": 1
@@ -332,7 +332,7 @@
 				}]
 			},
 			{
-				"name": "Threed",
+				"name": "Threed West Graveyard",
 				"access_rules": [
 					"zombiepaper, threed", "zombiepaper, mrsaturn", "mrsaturn, twoson, zombiepaper", "mrsaturn, fourside, zombiepaper"
 				],
@@ -350,7 +350,7 @@
 				}]
 			},
 			{
-				"name": "Winters",
+				"name": "Winters Shop",
 				"access_rules": [
 					"winters"
 				],
@@ -368,7 +368,7 @@
 				}]
 			},
 			{
-				"name": "Winters",
+				"name": "Andonut's Lab",
 				"access_rules": [
 					"winters, gum"
 				],
@@ -386,12 +386,12 @@
 				}]
 			},
 			{
-				"name": "Winters",
+				"name": "Stonehenge",
 				"access_rules": [
 					"winters, gum, eraser"
 				],
 				"sections": [{
-					"name": "Stonehenge",
+					"name": "Stonehenge Base",
 					"chest_unopened_img": "images/kino.png",
 					"chest_opened_img": "images/kiyes.png",
 					"item_count": 1
@@ -404,7 +404,7 @@
 				}]
 			},
 			{
-				"name": "Winters",
+				"name": "Winters Cave",
 				"access_rules": [
 					"winters, gum"
 				],
@@ -426,7 +426,7 @@
 					"saturnvalley, flyhoney"
 				],
 				"sections": [{
-					"name": "Defeat Factory Boss",
+					"name": "Factory Boss",
 					"hosted_item": "mrsaturn"
 				},
 				
@@ -439,7 +439,7 @@
 				}]
 			},
 			{
-				"name": "Saturn Valley",
+				"name": "Saturn Valley Cave",
 				"access_rules": [
 					"saturnvalley, mrsaturn"
 				],
@@ -473,12 +473,12 @@
 				}]
 			},
 			{
-				"name": "Saturn Valley",
+				"name": "Phase Distorter",
 				"access_rules": [
 					"saturnvalley, meteorite"
 				],
 				"sections": [{
-					"name": "Star Master/Giygas",
+					"name": "Star Master",
 					"chest_unopened_img": "images/kino.png",
 					"chest_opened_img": "images/kiyes.png",
 					"item_count": 1
@@ -491,12 +491,12 @@
 				}]
 			},
 			{
-				"name": "Dusty Dunes",
+				"name": "Mole Cave Mines",
 				"access_rules": [
 					"dustydunes", "fourside", "mrsaturn, threed"
 				],
 				"sections": [{
-					"name": "Mines",
+					"name": "Mine Treasure",
 					"chest_unopened_img": "images/kino.png",
 					"chest_opened_img": "images/kiyes.png",
 					"item_count": 1
@@ -509,12 +509,12 @@
 				}]
 			},
 			{
-				"name": "Dusty Dunes",
+				"name": "Monkey Caves",
 				"access_rules": [
 					"dustydunes, talahramah, pencileraser", "fourside, talahramah, pencileraser", "mrsaturn, threed, talahramah, pencileraser"
 				],
 				"sections": [{
-					"name": "Monkey Caves",
+					"name": "Talah Ramah Reward",
 					"chest_unopened_img": "images/kino.png",
 					"chest_opened_img": "images/kiyes.png",
 					"item_count": 2
@@ -527,12 +527,12 @@
 				}]
 			},
 			{
-				"name": "Fourside",
+				"name": "Moonside",
 				"access_rules": [
 					"fourside", "dustydunes", "mrsaturn, threed"
 				],
 				"sections": [{
-					"name": "Moonside",
+					"name": "Moonside Reward",
 					"chest_unopened_img": "images/kino.png",
 					"chest_opened_img": "images/kiyes.png",
 					"item_count": 1
@@ -545,7 +545,7 @@
 				}]
 			},
 			{
-				"name": "Fourside",
+				"name": "Monotoli Building",
 				"access_rules": [
 					"fourside, troutyogurt", "dustydunes, troutyogurt", "mrsaturn, threed, troutyogurt"
 				],
@@ -563,12 +563,12 @@
 				}]
 			},
 			{
-				"name": "Fourside",
+				"name": "Topollo Theater",
 				"access_rules": [
 					"fourside, diamond", "dustydunes, diamond", "mrsaturn, threed, diamond"
 				],
 				"sections": [{
-					"name": "Topollo Theater",
+					"name": "Runaway Debt 2",
 					"chest_unopened_img": "images/kino.png",
 					"chest_opened_img": "images/kiyes.png",
 					"hosted_item": "threed",
@@ -582,7 +582,7 @@
 				}]
 			},
 			{
-				"name": "Fourside",
+				"name": "Fourside Museum",
 				"access_rules": [
 					"fourside, banana", "dustydunes, banana", "mrsaturn, threed, banana"
 				],
@@ -601,7 +601,7 @@
 				}]
 			},
 			{
-				"name": "Summers",
+				"name": "Stoic Club",
 				"access_rules": [
 					"summers"
 				],
@@ -620,7 +620,7 @@
 				}]
 			},
 			{
-				"name": "Summers",
+				"name": "Summers Museum",
 				"access_rules": [
 					"summers, tinyruby"
 				],
@@ -638,7 +638,7 @@
 				}]
 			},
 			{
-				"name": "Summers",
+				"name": "Summers Docks",
 				"access_rules": [
 					"cakelady"
 				],
@@ -656,7 +656,7 @@
 				}]
 			},
 			{
-				"name": "Dalaam",
+				"name": "Dalaam Palace",
 				"access_rules": [
 					"dalaam"
 				],
@@ -674,12 +674,12 @@
 				}]
 			},
 			{
-				"name": "Dalaam",
+				"name": "Mu Training",
 				"access_rules": [
 					"dalaam, poo"
 				],
 				"sections": [{
-					"name": "Mu Training",
+					"name": "Trial of Nothingness",
 					"chest_unopened_img": "images/kino.png",
 					"chest_opened_img": "images/kiyes.png",
 					"item_count": 1
@@ -692,7 +692,7 @@
 				}]
 			},
 			{
-				"name": "Dalaam",
+				"name": "Dalaam Cave",
 				"access_rules": [
 					"dalaam, carrotkey"
 				],
@@ -710,7 +710,7 @@
 				}]
 			},
 			{
-				"name": "Scaraba",
+				"name": "Pyramid",
 				"access_rules": [
 					"scaraba, heiroglyph"
 				],
@@ -728,7 +728,7 @@
 				}]
 			},
 			{
-				"name": "Scaraba",
+				"name": "Outside Pyramid",
 				"access_rules": [
 					"scaraba, heiroglyph"
 				],
@@ -746,7 +746,7 @@
 				}]
 			},
 			{
-				"name": "Scaraba",
+				"name": "Dungeon Man",
 				"access_rules": [
 					"scaraba, heiroglyph"
 				],
@@ -782,12 +782,12 @@
 				}]
 			},
 			{
-				"name": "Tenda Village",
+				"name": "Tenda Tea",
 				"access_rules": [
 					"deepdarkness, hawkeye, shynessbook", "tendavillage, shynessbook"
 				],
 				"sections": [{
-					"name": "Tenda Tea",
+					"name": "Tenda Experience",
 					"chest_unopened_img": "images/kino.png",
 					"chest_opened_img": "images/kiyes.png",
 					"item_count": 1
@@ -800,7 +800,7 @@
 				}]
 			},
 			{
-				"name": "Tenda Village",
+				"name": "Lumine Hole",
 				"access_rules": [
 					"deepdarkness, hawkeye, shynessbook", "tendavillage, shynessbook"
 				],
@@ -836,7 +836,7 @@
 				}]
 			},
 			{
-				"name": "Lost Underworld",
+				"name": "Lost Underworld Cave",
 				"access_rules": [
 					"lostunderworld", "luminehall"
 				],
@@ -851,6 +851,24 @@
 					"map": "WorldMap",
 					"x": 467,
 					"y": 732
+				}]
+			},
+			{
+				"name": "Deep Darkness",
+				"access_rules": [
+					"hawkeye, deepdarkness"
+				],
+				"sections": [{
+					"name": "Swamp Kid",
+					"chest_unopened_img": "images/kino.png",
+					"chest_opened_img": "images/kiyes.png",
+					"item_count": 1
+
+				}],
+				"map_locations": [{
+					"map": "WorldMap",
+					"x": 97,
+					"y": 678
 				}]
 			},
 			{
