@@ -693,7 +693,7 @@ updateEvent("@Monkey Caves/Talah Ramah Reward", segment, 0x7EB60B, 0x02) --old m
 updateEvent("@Monkey Caves/Talah Ramah Reward", segment, 0x7EB60B, 0x04) --monkey
 updateEvent("@Mole Cave Mines/Mine Treasure", segment, 0x7EB60A, 0x80)
 updateEvent("@Stoic Club/Magic Cake", segment, 0x7EB60C, 0x01)
-updateEvent("@Summers Museum/Summers Museum", segment, 0x7EB60B, 0x80)
+updateEvent("@Summers Museum/Museum Reward", segment, 0x7EB60B, 0x80)
 updateEvent("@Outside Pyramid/Star Master", segment, 0x7EB60E, 0x01)
 updateEvent("@Mu Training/Trial of Nothingness", segment, 0x7EB618, 0x01)
 updateEvent("@Tenda Tea/Tenda Experience", segment, 0x7EB611, 0x80)
