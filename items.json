@@ -440,7 +440,195 @@
     "type": "toggle",
     "img": "images/kino.png",
     "codes": "cakelady"
+  },
+  // Starman Jr.
+  {
+    "name": "Starman Jr.",
+    "type": "toggle",
+    "img": "images/items/bosses/starmanjr.png",
+    "codes": "starmanjr"
+  },
+  // Frank
+  {
+    "name": "Frank",
+    "type": "toggle",
+    "img": "images/items/bosses/frank.png",
+    "codes": "frank"
+  },
+  // Frankystein Mark II
+  {
+    "name": "Frankystein Mark II",
+    "type": "toggle",
+    "img": "images/items/bosses/frankystein.png",
+    "codes": "frankystein"
+  },
+ // Titanic Ant
+  {
+    "name": "Titanic Ant",
+    "type": "toggle",
+    "img": "images/items/bosses/titanicant.png",
+    "codes": "titanicant"
+  },
+  // Captain Strong
+  {
+    "name": "Captain Strong",
+    "type": "toggle",
+    "img": "images/items/bosses/cptstrong.png",
+    "codes": "cptstrong"
+  },
+  // Everdred
+  {
+    "name": "Everdred",
+    "type": "toggle",
+    "img": "images/items/bosses/everdred.png",
+    "codes": "everdred"
+  },
+  // Carpainter
+  {
+    "name": "Mr. Carpainter",
+    "type": "toggle",
+    "img": "images/items/bosses/carpainter.png",
+    "codes": "carpainter"
+  },
+  // Mondo Mole
+  {
+    "name": "Mondo Mole",
+    "type": "toggle",
+    "img": "images/items/bosses/mondomole.png",
+    "codes": "mondomole"
+  },
+  // Boogey Tent
+  {
+    "name": "Boogey Tent",
+    "type": "toggle",
+    "img": "images/items/bosses/boogeytent.png",
+    "codes": "boogeytent"
+  },
+  // Minibarf
+  {
+    "name": "Minibarf",
+    "type": "toggle",
+    "img": "images/items/bosses/minibarf.png",
+    "codes": "minibarf"
+  },
+  // Master Belch
+  {
+    "name": "Master Belch",
+    "type": "toggle",
+    "img": "images/items/bosses/masterbelch.png",
+    "codes": "belch"
+  },
+  // Trillionagesprout
+  {
+    "name": "Trillionagesprout",
+    "type": "toggle",
+    "img": "images/items/bosses/trillionagesprout.png",
+    "codes": "sprout"
+  },
+  // Guardian Digger
+  {
+    "name": "Guardian Digger",
+    "type": "toggle",
+    "img": "images/items/bosses/guardiandigger.png",
+    "codes": "guardiandigger"
+  },
+  // Dept. Store Spook
+  {
+    "name": "Dept. Store Spook",
+    "type": "toggle",
+    "img": "images/items/bosses/deptstspook.png",
+    "codes": "deptstspook"
+  },
+  // Evil Mani Mani
+  {
+    "name": "Evil Mani Mani",
+    "type": "toggle",
+    "img": "images/items/bosses/evilmanimani.png",
+    "codes": "evilmanimani"
+  },
+  // Clumsy Robot
+  {
+    "name": "Clumsy Robot",
+    "type": "toggle",
+    "img": "images/items/bosses/clumsyrobot.png",
+    "codes": "clumsyrobot"
+  },
+  // Shrooom!
+  {
+    "name": "Shrooom!",
+    "type": "toggle",
+    "img": "images/items/bosses/shrooom.png",
+    "codes": "shrooom"
+  },
+  // Plague Rat of Doom
+  {
+    "name": "Plague Rat of Doom",
+    "type": "toggle",
+    "img": "images/items/bosses/rat.png",
+    "codes": "rat"
+  },
+  // Thunder & Storm
+  {
+    "name": "Thunder & Storm",
+    "type": "toggle",
+    "img": "images/items/bosses/ts.png",
+    "codes": "ts"
+  },
+  // Kraken
+  {
+    "name": "Kraken",
+    "type": "toggle",
+    "img": "images/items/bosses/kraken.png",
+    "codes": "kraken"
+  },
+  // Guardian General
+  {
+    "name": "Guardian General",
+    "type": "toggle",
+    "img": "images/items/bosses/guardiangeneral.png",
+    "codes": "guardiangeneral"
+  },
+  // Master Barf
+  {
+    "name": "Master Barf",
+    "type": "toggle",
+    "img": "images/items/bosses/masterbarf.png",
+    "codes": "barf"
+  },
+  // Starman DX
+  {
+    "name": "Starman DX",
+    "type": "toggle",
+    "img": "images/items/bosses/starmandeluxe.png",
+    "codes": "starmandx"
+  },
+  // Electro Specter
+  {
+    "name": "Electro Specter",
+    "type": "toggle",
+    "img": "images/items/bosses/electrospecter.png",
+    "codes": "electrospecter"
+  },
+  // Carbon Dog
+  {
+    "name": "Carbon Dog",
+    "type": "toggle",
+    "img": "images/items/bosses/carbondog.png",
+    "codes": "carbondog"
+  },
+  // Ness' Nightmare
+  {
+    "name": "Ness' Nightmare",
+    "type": "toggle",
+    "img": "images/items/bosses/nightmare.png",
+    "codes": "nightmare"
+  },
+  // Heavily Armed Pokey
+  {
+    "name": "Heavily Armed Pokey",
+    "type": "toggle",
+    "img": "images/items/bosses/pokey.png",
+    "codes": "pokey"
   }
- 
  ] 
   

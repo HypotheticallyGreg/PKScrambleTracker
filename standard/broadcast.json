@@ -3,23 +3,10 @@
     "type": "array",
     "orientation": "vertical",
     "margin": "0,0",
+	"background": "#FF00FF",
     "content": [
-      {
-        "type": "array",
-        "orientation": "horizontal",
-        "margin": "0,0",
-        "content": [
-          {
-            "type": "itemgrid",
-            "item_margin": "1,2",
-            "v_alignment": "center",
-            "item_size": 32,
-            "rows": [
-              
-                ]
-          }
-        ]
-      },
+      
+    
       {
         "type": "array",
         "orientation": "horizontal",
@@ -39,29 +26,40 @@
               [ "talahramah", "diamond", "troutyogurt", "banana"],
               [ "tinyruby", "heiroglyph", "hawkeye", "tendakraut", "carrotkey"]
                 ]
-          }
-        ]
-      },
-      {
-        "type": "array",
-        "orientation": "horizontal",
-        "margin": "1,2",
-        "content": [
-          {
+          },
+		  {
             "type": "itemgrid",
             "item_margin": "1,2",
             "v_alignment": "center",
             "item_width": 96,
 			"item_height": 30,
+            "rows": [
+			  ["onett", "twoson"], 
+				["threed","fourside"],
+				["winters","summers"],
+				["saturnvalley", "dustydunes"],
+				["dalaam", "scaraba"],
+				["deepdarkness","tendavillage"],
+				["lostunderworld", "magicant"],
+                ]
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "0,0",
+            "v_alignment": "left",
+			"h_alignment": "left",
+            "item_width": 40,
 			"rows": [
-				["onett", "twoson"],
-				["threed","fourside"], 
-				["happyhappy","winters"],
-				["summers","saturnvalley"], 
-				["dustydunes","dalaam"],
-				["scaraba","deepdarkness"],
-				["lostunderworld","tendavillage"], 
-				["magicant"],
+				["starmanjr", "frank", "frankystein", "titanicant", "cptstrong", "everdred", "carpainter", "mondomole", "boogeytent","minibarf"],
+				["belch", "sprout", "guardiandigger", "deptstspook","evilmanimani", "clumsyrobot", "shrooom", "rat","ts", "kraken"],
+			  [, "guardiangeneral", "barf", "starmandx", "electrospecter", "carbondog", "nightmare", "pokey" ],
                 ]
           }
         ]

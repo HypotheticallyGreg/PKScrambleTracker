@@ -9,9 +9,23 @@
             "item_margin": "1,2",
             "item_size": 40,
             "rows": [
-              [ "paula", "jeff", "poo", "flying", "bear"]
+              [ "paula", "jeff", "poo", "flying", "bear"],
+			  
             ]
           },
+		  {
+          "type": "itemgrid",
+            "h_alignment": "center",
+			"v_alignment": "center",
+            "item_margin": "1,1",
+            "item_size": 50,
+            "rows": [
+              ["starmanjr", "frank", "frankystein", "titanicant", "cptstrong", "everdred", "carpainter", "mondomole", "boogeytent","minibarf", "belch", "sprout", "guardiandigger", "deptstspook"],
+			  ["evilmanimani", "clumsyrobot", "shrooom", "rat","ts", "kraken", "guardiangeneral", "barf", "starmandx", "electrospecter", "carbondog", "nightmare", "pokey" ],
+			  			  
+            ]
+          },
+		  
         {
           "type": "array",
           "orientation": "vertical",
@@ -25,6 +39,7 @@
               {
           "type": "itemgrid",
             "h_alignment": "center",
+			"v_alignment": "center",
             "item_margin": "1,2",
             "rows": [
               [ "meteorite", "shackkey", "shynessbook", "policebadge"],
@@ -38,6 +53,7 @@
           { 
             "type": "itemgrid",
             "h_alignment": "center",
+			"v_alignment": "center",
             "item_margin": "0,0",
             "rows": [
               [ "linhaa" ],
@@ -52,22 +68,26 @@
           {
           "type": "itemgrid",
                   "h_alignment": "center",
+				  "v_alignment": "center",
                   "margin": "-15,0,0,0",
 									"item_margin": "1,2",
 									"item_width": 96,
 									"item_height": 30,
 									"rows": [
-										["onett", "twoson", "threed"],
-										["fourside", "happyhappy", "winters"],
-										["summers", "saturnvalley", "dustydunes"],
-										["dalaam", "scaraba", "deepdarkness"],
-										["lostunderworld", "tendavillage", "magicant"],
+										["onett", "twoson"], 
+										["threed","fourside"],
+										["winters","summers"],
+										["saturnvalley", "dustydunes"],
+										["dalaam", "scaraba"],
+										["deepdarkness","tendavillage"],
+										["lostunderworld", "magicant"],
 										
                   ]
             },
 			          { 
             "type": "itemgrid",
             "h_alignment": "center",
+			"v_alignment": "center",
             "item_margin": "0,0",
             "rows": [
               [ "linhaa" ],
@@ -82,13 +102,15 @@
 		            {
           "type": "itemgrid",
                   "h_alignment": "center",
+				  "v_alignment": "center",
                   "margin": "-15,0,0,0",
 									"item_margin": "1,2",
-									"item_width": 108,
-									"item_height": 108,
+									"item_width": 81,
+									"item_height": 81,
 									"rows": [
-										["giantstep", "lilliput", "milkywell", "rainycircle"],
-										["magnethill", "pinkcloud", "luminehall", "firespring"],
+										["giantstep", "lilliput", "milkywell"],
+										["rainycircle", "magnethill", "pinkcloud"],
+										["luminehall", "firespring"],
 										]
             },
           ]
