@@ -22,7 +22,7 @@ print("")
 -- Invoked when the auto-tracker is activated/connected
 --
 function autotracker_started()
-    
+
 end
 
 -- Print a debug message if debug logging is enabled
@@ -204,14 +204,14 @@ end
 
 
 ------------------------------------------------------
--- PARTY CHECKS 
+-- PARTY CHECKS
 ------------------------------------------------------
 
 --Iterates through party slots for member values (adds check for Poo/Jeff in party before revealing their items)
 
 function updateParty(segment)
 		for i = 0, 2 do
- 
+
   local partyCheck = segment:ReadUInt8(0x7E988C + i)
 	if partyCheck == 2 then
   PaulaParty = 1
@@ -256,12 +256,12 @@ end
 
 --NESS ITEMS (also if first slot empty clears all checks, see Outside Game Clear section at top
 function updateNessItems(segment)
- 
+
 	if segment:ReadUInt8(0x7E99F1) == 0 then
     toggleItem("clear")
 	end
 		for i = 0, 13 do
- 
+
   local nessByte = segment:ReadUInt8(0x7E99F1 + i)
 
 		if nessByte == 193 then
@@ -329,16 +329,16 @@ function updateNessItems(segment)
 	end
 		if nessByte == 253 then
     toggleItem("carrotkey")
-	end	
+	end
 		end
 end
 
 --PAULA'S ITEMS
 
 function updatePaulaItems(segment)
- 
+
 		for i = 0, 13 do
- 
+
   local paulaByte = segment:ReadUInt8(0x7E9A50 + i)
 
 		if paulaByte == 193 then
@@ -406,7 +406,7 @@ function updatePaulaItems(segment)
 	end
 		if paulaByte == 253 then
     toggleItem("carrotkey")
-	end	
+	end
 		end
 end
 
@@ -415,9 +415,9 @@ end
 function updateJeffItems(segment)
 
 		for i = 0, 13 do
- 
+
   local jeffByte = segment:ReadUInt8(0x7E9AAF + i)
-  if JeffParty == 1 then 
+  if JeffParty == 1 then
 		if jeffByte == 193 then
     toggleItem("meteorite")
 	end
@@ -483,8 +483,8 @@ function updateJeffItems(segment)
 	end
 		if jeffByte == 253 then
     toggleItem("carrotkey")
-	end	
-		
+	end
+
 else
   printDebug("Jeff not in party.")
   end
@@ -494,11 +494,11 @@ end
 --POO'S ITEMS
 
 function updatePooItems(segment)
- 
+
 		for i = 0, 13 do
- 
+
   local pooByte = segment:ReadUInt8(0x7E9B0E + i)
-  if PooParty == 1 then 
+  if PooParty == 1 then
 		if pooByte == 193 then
     toggleItem("meteorite")
 	end
@@ -564,7 +564,7 @@ function updatePooItems(segment)
 	end
 		if pooByte == 253 then
     toggleItem("carrotkey")
-	end	
+	end
 else
   printDebug("Poo not in party.")
   end
@@ -575,7 +575,7 @@ end
 
 function updateXpressItems(segment)
 		for i = 0, 23 do
- 
+
   local xpressByte = segment:ReadUInt8(0x7E984B + i)
 
 		if xpressByte == 193 then
@@ -643,7 +643,7 @@ function updateXpressItems(segment)
 	end
 		if xpressByte == 253 then
     toggleItem("carrotkey")
-	end	
+	end
 	end
 end
 
@@ -654,9 +654,9 @@ end
 function updateEvent(name, segment, address, flag)
 
   local trackerItem = Tracker:FindObjectForCode(name)
-  
+
   if trackerItem then
-  
+
     local value = segment:ReadUInt8(address)
     if (value & flag) ~= 0 then
       trackerItem.AvailableChestCount = 0
@@ -664,7 +664,7 @@ function updateEvent(name, segment, address, flag)
       trackerItem.AvailableChestCount = 1
     end
   else
-    printDebug("Update Event: Unable to find tracker item: " .. name)  
+    printDebug("Update Event: Unable to find tracker item: " .. name)
   end
 end
 
@@ -693,7 +693,7 @@ updateEvent("@Monkey Caves/Talah Ramah Reward", segment, 0x7EB60B, 0x02) --old m
 updateEvent("@Monkey Caves/Talah Ramah Reward", segment, 0x7EB60B, 0x04) --monkey
 updateEvent("@Mole Cave Mines/Mine Treasure", segment, 0x7EB60A, 0x80)
 updateEvent("@Stoic Club/Magic Cake", segment, 0x7EB60C, 0x01)
-updateEvent("@Summers Museum/Museum Reward", segment, 0x7EB60B, 0x80)
+updateEvent("@Summers Museum/Summers Museum", segment, 0x7EB60B, 0x80)
 updateEvent("@Outside Pyramid/Star Master", segment, 0x7EB60E, 0x01)
 updateEvent("@Mu Training/Trial of Nothingness", segment, 0x7EB618, 0x01)
 updateEvent("@Tenda Tea/Tenda Experience", segment, 0x7EB611, 0x80)
@@ -724,14 +724,14 @@ end
 --------------------------------------------
 
 --There are so many things in this script that could be better in terms of optimization and even coding basics.
---I've never worked with Lua before this and I'm not really a coder. I just wanted to make this randomizer more accessible to people so don't judge too harshly! :) 
+--I've never worked with Lua before this and I'm not really a coder. I just wanted to make this randomizer more accessible to people so don't judge too harshly! :)
 
 --Known Issues
 ----------------
 
 -- (Confirm FIXED?) If Police badge turned in but failed and saved after. police badge will not reappear automatically since it isn't returned after turning it in. (need to add check to police badge for (0x7EB600, 0x40 is badge turned in)
 -- (Confirm FIXED?) If Yogurt machine is turned in but Monotoli not completed and a save/reload is done then yougurt machine is not tracked again automatically, similar to police badge issue above, (9C19 0x10)
--- Same this as above for Hawkeye, need to find revealed DD map check 
+-- Same this as above for Hawkeye, need to find revealed DD map check
 -- Check what other items this could apply to...
 
 --Check into the checks for Monotoli, have them split like cabin prisoner/kid     (No fix needed currently since always getting both at the same time, but may be worth doing at some point, Check tracks off Monotoli himself, maybe leave alone incase runner saving time by not getting character (if Teddybear or something??))
@@ -755,7 +755,7 @@ end
 -- Lier's Basement 0x7EB600, 0x20 (0x7EB600, 0x08 is talk at door, 0x7EB600, 0x10 is talk at the ladder)
 -- Meteorite 0x7EB600, 0x01
 -- Library 0x7EB600, 0x04  (0x7EB600, 0x40 is badge turn in)
--- Everdred 0x7EB602, 0x08 (0x7EB602, 0x04 beat) 
+-- Everdred 0x7EB602, 0x08 (0x7EB602, 0x04 beat)
 -- Applekid 0x7EB602, 0x01 (0x7EB602, 0x02 is fed,  0x7EB601, 0x80 is paid)
 -- Threed Prison 0x7EB606, 0x01 (0x7EB606, 0x04 is knocked out, 0x7EB605, 0x80 is door unbolted, 0x7EB606, 0x04 is sky runner crash)
 -- Moonside  0x7EB60A, 0x04  (0x7EB609, 0x80?) 2CAB GOES FROM 3 TO 255 X80 AND X40 BOTH TRIGGER ??? no

@@ -1,5 +1,5 @@
 [{
-	
+
 	"name": "All Locations",
 	"children": [{
 		"name": "WorldMap",
@@ -427,7 +427,7 @@
 					"name": "Factory Boss",
 					"hosted_item": "mrsaturn"
 				},
-				
+
 				],
 				"map_locations": [{
 					"map": "WorldMap",
@@ -623,7 +623,7 @@
 					"summers, tinyruby"
 				],
 				"sections": [{
-					"name": "Museum Reward",
+					"name": "Summers Museum",
 					"chest_unopened_img": "images/kino.png",
 					"chest_opened_img": "images/kiyes.png",
 					"item_count": 1
