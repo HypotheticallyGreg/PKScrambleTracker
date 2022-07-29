@@ -168,7 +168,7 @@
 			{
 				"name": "Apple Kid in the Park",
 				"access_rules": [
-					"twoson", "mrsaturn, threed", "happyhappy, pencileraser"
+					"twoson", "mrsaturn, threed"
 				],
 				"sections": [{
 					"name": "Apple Kid's Invention",
@@ -186,7 +186,7 @@
 			{
 				"name": "Burglin Park",
 				"access_rules": [
-					"paula,twoson", "paula,mrsaturn", "mrsaturn, paula, threed","happyhappy, paula, pencileraser"
+					"paula,twoson", "paula,mrsaturn", "mrsaturn, paula, threed"
 				],
 				"sections": [{
 					"name": "Burglin Boss",
@@ -204,7 +204,7 @@
 			{
 				"name": "Chaos Theater",
 				"access_rules": [
-					"bills, twoson", "bills, mrsaturn, threed", "bills, pencileraser, happyhappy"
+					"bills, twoson", "bills, mrsaturn, threed"
 				],
 				"sections": [{
 					"name": "Runaway Debt",
@@ -222,7 +222,7 @@
 			{
 				"name": "Cabin in the valley",
 				"access_rules": [
-					"pencileraser, twoson", "pencileraser, mrsaturn, threed","happyhappy"
+					"pencileraser, twoson", "pencileraser, mrsaturn, threed"
 				],
 				"sections": [{
 						"name": "Prisoner's Item",
@@ -250,7 +250,7 @@
 			{
 				"name": "Happy Happy Village",
 				"access_rules": [
-					"franklinbadge, twoson, pencileraser", "franklinbadge, mrsaturn, threed, pencileraser","happyhappy, franklinbadge"
+					"franklinbadge, twoson, pencileraser", "franklinbadge, mrsaturn, threed, pencileraser"
 				],
 				"sections": [{
 					"name": "BlueBlue Leader",
@@ -268,7 +268,7 @@
 			{
 				"name": "Strange Non-Blue Place",
 				"access_rules": [
-					"twoson, pencileraser", "mrsaturn, threed, pencileraser","happyhappy"
+					"twoson, pencileraser", "mrsaturn, threed, pencileraser"
 				],
 				"sections": [{
 					"name": "Lilliput Steps",
