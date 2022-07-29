@@ -128,6 +128,14 @@ function updateTeleport3(segment)
 
 end
 
+function updateTeleport4(segment)
+
+
+  local teleByte5 = segment:ReadUInt8(0x7EB603)
+
+    toggleTeleport(teleByte5, 0x20, "happyhappy")
+
+end
 
 -------------------------------------------------------------------------------
 --ACCESS CHECKS (leverages teleport toggle function since it's the same method)
@@ -796,6 +804,7 @@ printDebug("Adding memory watches")
 ScriptHost:AddMemoryWatch("Teleport1", 0x7E9C22, 2, updateTeleport1)
 ScriptHost:AddMemoryWatch("Teleport2", 0x7E9C52, 1, updateTeleport2)
 ScriptHost:AddMemoryWatch("Teleport3", 0x7E9C12, 1, updateTeleport3)
+ScriptHost:AddMemoryWatch("Teleport4", 0x7EB603, 1, updateTeleport4)
 ScriptHost:AddMemoryWatch("BelchCheck", 0x7E9C10, 1, updateSaturn)
 ScriptHost:AddMemoryWatch("BoatCheck", 0x7EB60C, 1, updateBoat)
 ScriptHost:AddMemoryWatch("CopCheck", 0x7E9C15, 1, updateCop)
